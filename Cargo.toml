@@ -1,0 +1,13 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nick Calibey <nick.calibey@gmail.com>"]
+
+[profile.dev]
+panic = "abort" # Disable stack unwinding on panic.
+
+[profile.release]
+panic = "abort" # Disable stack unwinding on panic.
+
+[dependencies]
